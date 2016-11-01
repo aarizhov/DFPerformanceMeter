@@ -3,6 +3,8 @@ Tool for measurement performance of code. Supported iOS from 10.0 and Swift from
 
 ## Usage
 
+All functions will be run on the background thread in synchronized mode
+
 ### Example
 
 ```swift
