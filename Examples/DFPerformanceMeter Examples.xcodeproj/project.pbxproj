@@ -13,6 +13,23 @@
 		D610C91F1DC89CB500FD7725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D610C91E1DC89CB500FD7725 /* Assets.xcassets */; };
 		D610C9221DC89CB500FD7725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D610C9201DC89CB500FD7725 /* LaunchScreen.storyboard */; };
 		D610C9291DC89EA000FD7725 /* DFPerformanceMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610C9281DC89EA000FD7725 /* DFPerformanceMeter.swift */; };
+		D65400521DF458D30001CFBA /* DFPerformanceMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610C9281DC89EA000FD7725 /* DFPerformanceMeter.swift */; };
+		D6D1C3681DD7F26D00822DA1 /* OilPaintingC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C3571DD7F26D00822DA1 /* OilPaintingC.m */; };
+		D6D1C3691DD7F26D00822DA1 /* OilPaintingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C3591DD7F26D00822DA1 /* OilPaintingSwift.swift */; };
+		D6D1C36A1DD7F26D00822DA1 /* OilPaintingCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C35C1DD7F26D00822DA1 /* OilPaintingCoreImage.swift */; };
+		D6D1C36B1DD7F26D00822DA1 /* DFGLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C35F1DD7F26D00822DA1 /* DFGLImageView.m */; };
+		D6D1C36C1DD7F26D00822DA1 /* DFOilPaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C3611DD7F26D00822DA1 /* DFOilPaintingView.m */; };
+		D6D1C36D1DD7F26D00822DA1 /* DFGLImageViewS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C3631DD7F26D00822DA1 /* DFGLImageViewS.swift */; };
+		D6D1C36E1DD7F26D00822DA1 /* DFOilPaintingViewS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1C3641DD7F26D00822DA1 /* DFOilPaintingViewS.swift */; };
+		D6D1C36F1DD7F26D00822DA1 /* FragmentShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D6D1C3661DD7F26D00822DA1 /* FragmentShader.fsh */; };
+		D6D1C3701DD7F26D00822DA1 /* VertexShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D6D1C3671DD7F26D00822DA1 /* VertexShader.vsh */; };
+		D6DAEB7F1DD69F69004B4B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEB7E1DD69F69004B4B3A /* AppDelegate.swift */; };
+		D6DAEB811DD69F69004B4B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEB801DD69F69004B4B3A /* ViewController.swift */; };
+		D6DAEB841DD69F69004B4B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEB821DD69F69004B4B3A /* Main.storyboard */; };
+		D6DAEB861DD69F69004B4B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEB851DD69F69004B4B3A /* Assets.xcassets */; };
+		D6DAEB891DD69F69004B4B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEB871DD69F69004B4B3A /* LaunchScreen.storyboard */; };
+		D6DAEBB51DD750D8004B4B3A /* texture0.png in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEBB41DD750D8004B4B3A /* texture0.png */; };
+		D6DAEBC21DD75CE7004B4B3A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DAEBC11DD75CE7004B4B3A /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,28 @@
 		D610C9211DC89CB500FD7725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D610C9231DC89CB500FD7725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D610C9281DC89EA000FD7725 /* DFPerformanceMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFPerformanceMeter.swift; sourceTree = "<group>"; };
+		D6D1C3551DD7F26D00822DA1 /* iOS Language Performance Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS Language Performance Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6D1C3561DD7F26D00822DA1 /* OilPaintingC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilPaintingC.h; sourceTree = "<group>"; };
+		D6D1C3571DD7F26D00822DA1 /* OilPaintingC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilPaintingC.m; sourceTree = "<group>"; };
+		D6D1C3591DD7F26D00822DA1 /* OilPaintingSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OilPaintingSwift.swift; sourceTree = "<group>"; };
+		D6D1C35C1DD7F26D00822DA1 /* OilPaintingCoreImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OilPaintingCoreImage.swift; sourceTree = "<group>"; };
+		D6D1C35E1DD7F26D00822DA1 /* DFGLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFGLImageView.h; sourceTree = "<group>"; };
+		D6D1C35F1DD7F26D00822DA1 /* DFGLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFGLImageView.m; sourceTree = "<group>"; };
+		D6D1C3601DD7F26D00822DA1 /* DFOilPaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFOilPaintingView.h; sourceTree = "<group>"; };
+		D6D1C3611DD7F26D00822DA1 /* DFOilPaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFOilPaintingView.m; sourceTree = "<group>"; };
+		D6D1C3631DD7F26D00822DA1 /* DFGLImageViewS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFGLImageViewS.swift; sourceTree = "<group>"; };
+		D6D1C3641DD7F26D00822DA1 /* DFOilPaintingViewS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFOilPaintingViewS.swift; sourceTree = "<group>"; };
+		D6D1C3661DD7F26D00822DA1 /* FragmentShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FragmentShader.fsh; sourceTree = "<group>"; };
+		D6D1C3671DD7F26D00822DA1 /* VertexShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = VertexShader.vsh; sourceTree = "<group>"; };
+		D6DAEB7C1DD69F69004B4B3A /* iOS Language Performance Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Language Performance Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DAEB7E1DD69F69004B4B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6DAEB801DD69F69004B4B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6DAEB831DD69F69004B4B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DAEB851DD69F69004B4B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DAEB881DD69F69004B4B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DAEB8A1DD69F69004B4B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAEBB41DD750D8004B4B3A /* texture0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture0.png; sourceTree = "<group>"; };
+		D6DAEBC11DD75CE7004B4B3A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAEB791DD69F69004B4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAEBC21DD75CE7004B4B3A /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +89,9 @@
 			children = (
 				D610C9271DC89EA000FD7725 /* DFPerformanceMeter */,
 				D610C9161DC89CB500FD7725 /* iOS Example */,
+				D6DAEB7D1DD69F69004B4B3A /* iOS Language Performance Example */,
 				D610C9151DC89CB500FD7725 /* Products */,
+				D6DAEBC01DD75CE7004B4B3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D610C9141DC89CB500FD7725 /* iOS Example.app */,
+				D6DAEB7C1DD69F69004B4B3A /* iOS Language Performance Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +126,106 @@
 			path = ../DFPerformanceMeter;
 			sourceTree = "<group>";
 		};
+		D6D1C3531DD7F26D00822DA1 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3541DD7F26D00822DA1 /* PureC */,
+				D6D1C3581DD7F26D00822DA1 /* Swift */,
+			);
+			path = CPU;
+			sourceTree = "<group>";
+		};
+		D6D1C3541DD7F26D00822DA1 /* PureC */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3551DD7F26D00822DA1 /* iOS Language Performance Example-Bridging-Header.h */,
+				D6D1C3561DD7F26D00822DA1 /* OilPaintingC.h */,
+				D6D1C3571DD7F26D00822DA1 /* OilPaintingC.m */,
+			);
+			path = PureC;
+			sourceTree = "<group>";
+		};
+		D6D1C3581DD7F26D00822DA1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3591DD7F26D00822DA1 /* OilPaintingSwift.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D6D1C35A1DD7F26D00822DA1 /* GPU */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C35B1DD7F26D00822DA1 /* CoreImageLanguage */,
+				D6D1C35D1DD7F26D00822DA1 /* OpenGLC */,
+				D6D1C3621DD7F26D00822DA1 /* OpenGLSwift */,
+				D6D1C3651DD7F26D00822DA1 /* Shader */,
+			);
+			path = GPU;
+			sourceTree = "<group>";
+		};
+		D6D1C35B1DD7F26D00822DA1 /* CoreImageLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C35C1DD7F26D00822DA1 /* OilPaintingCoreImage.swift */,
+			);
+			path = CoreImageLanguage;
+			sourceTree = "<group>";
+		};
+		D6D1C35D1DD7F26D00822DA1 /* OpenGLC */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C35E1DD7F26D00822DA1 /* DFGLImageView.h */,
+				D6D1C35F1DD7F26D00822DA1 /* DFGLImageView.m */,
+				D6D1C3601DD7F26D00822DA1 /* DFOilPaintingView.h */,
+				D6D1C3611DD7F26D00822DA1 /* DFOilPaintingView.m */,
+			);
+			name = OpenGLC;
+			path = OpenGLPureC;
+			sourceTree = "<group>";
+		};
+		D6D1C3621DD7F26D00822DA1 /* OpenGLSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3631DD7F26D00822DA1 /* DFGLImageViewS.swift */,
+				D6D1C3641DD7F26D00822DA1 /* DFOilPaintingViewS.swift */,
+			);
+			path = OpenGLSwift;
+			sourceTree = "<group>";
+		};
+		D6D1C3651DD7F26D00822DA1 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3661DD7F26D00822DA1 /* FragmentShader.fsh */,
+				D6D1C3671DD7F26D00822DA1 /* VertexShader.vsh */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		D6DAEB7D1DD69F69004B4B3A /* iOS Language Performance Example */ = {
+			isa = PBXGroup;
+			children = (
+				D6D1C3531DD7F26D00822DA1 /* CPU */,
+				D6D1C35A1DD7F26D00822DA1 /* GPU */,
+				D6DAEB7E1DD69F69004B4B3A /* AppDelegate.swift */,
+				D6DAEB801DD69F69004B4B3A /* ViewController.swift */,
+				D6DAEB821DD69F69004B4B3A /* Main.storyboard */,
+				D6DAEB851DD69F69004B4B3A /* Assets.xcassets */,
+				D6DAEB871DD69F69004B4B3A /* LaunchScreen.storyboard */,
+				D6DAEB8A1DD69F69004B4B3A /* Info.plist */,
+				D6DAEBB41DD750D8004B4B3A /* texture0.png */,
+			);
+			path = "iOS Language Performance Example";
+			sourceTree = "<group>";
+		};
+		D6DAEBC01DD75CE7004B4B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAEBC11DD75CE7004B4B3A /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +246,23 @@
 			productReference = D610C9141DC89CB500FD7725 /* iOS Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D6DAEB7B1DD69F69004B4B3A /* iOS Language Performance Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DAEB8D1DD69F69004B4B3A /* Build configuration list for PBXNativeTarget "iOS Language Performance Example" */;
+			buildPhases = (
+				D6DAEB781DD69F69004B4B3A /* Sources */,
+				D6DAEB791DD69F69004B4B3A /* Frameworks */,
+				D6DAEB7A1DD69F69004B4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Language Performance Example";
+			productName = "iOS Language Performance Example";
+			productReference = D6DAEB7C1DD69F69004B4B3A /* iOS Language Performance Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,6 +275,12 @@
 					D610C9131DC89CB500FD7725 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = R8BL5N24J7;
+						ProvisioningStyle = Automatic;
+					};
+					D6DAEB7B1DD69F69004B4B3A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R8BL5N24J7;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +299,7 @@
 			projectRoot = "";
 			targets = (
 				D610C9131DC89CB500FD7725 /* iOS Example */,
+				D6DAEB7B1DD69F69004B4B3A /* iOS Language Performance Example */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +315,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6DAEB7A1DD69F69004B4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAEBB51DD750D8004B4B3A /* texture0.png in Resources */,
+				D6D1C36F1DD7F26D00822DA1 /* FragmentShader.fsh in Resources */,
+				D6D1C3701DD7F26D00822DA1 /* VertexShader.vsh in Resources */,
+				D6DAEB891DD69F69004B4B3A /* LaunchScreen.storyboard in Resources */,
+				D6DAEB861DD69F69004B4B3A /* Assets.xcassets in Resources */,
+				D6DAEB841DD69F69004B4B3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -151,6 +338,23 @@
 				D610C91A1DC89CB500FD7725 /* ViewController.swift in Sources */,
 				D610C9291DC89EA000FD7725 /* DFPerformanceMeter.swift in Sources */,
 				D610C9181DC89CB500FD7725 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DAEB781DD69F69004B4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65400521DF458D30001CFBA /* DFPerformanceMeter.swift in Sources */,
+				D6D1C36E1DD7F26D00822DA1 /* DFOilPaintingViewS.swift in Sources */,
+				D6D1C3691DD7F26D00822DA1 /* OilPaintingSwift.swift in Sources */,
+				D6DAEB811DD69F69004B4B3A /* ViewController.swift in Sources */,
+				D6D1C36C1DD7F26D00822DA1 /* DFOilPaintingView.m in Sources */,
+				D6D1C36A1DD7F26D00822DA1 /* OilPaintingCoreImage.swift in Sources */,
+				D6D1C36B1DD7F26D00822DA1 /* DFGLImageView.m in Sources */,
+				D6D1C36D1DD7F26D00822DA1 /* DFGLImageViewS.swift in Sources */,
+				D6DAEB7F1DD69F69004B4B3A /* AppDelegate.swift in Sources */,
+				D6D1C3681DD7F26D00822DA1 /* OilPaintingC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +373,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				D610C9211DC89CB500FD7725 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DAEB821DD69F69004B4B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DAEB831DD69F69004B4B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DAEB871DD69F69004B4B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DAEB881DD69F69004B4B3A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -295,6 +515,115 @@
 			};
 			name = Release;
 		};
+		D6DAEB8B1DD69F69004B4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R8BL5N24J7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Language Performance Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devforfun.iOS-Language-Performance-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS Language Performance Example/CPU/PureC/iOS Language Performance Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DAEB8C1DD69F69004B4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R8BL5N24J7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Language Performance Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devforfun.iOS-Language-Performance-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS Language Performance Example/CPU/PureC/iOS Language Performance Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -314,6 +643,16 @@
 				D610C9261DC89CB500FD7725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DAEB8D1DD69F69004B4B3A /* Build configuration list for PBXNativeTarget "iOS Language Performance Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DAEB8B1DD69F69004B4B3A /* Debug */,
+				D6DAEB8C1DD69F69004B4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
