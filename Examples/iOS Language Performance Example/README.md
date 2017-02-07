@@ -24,4 +24,4 @@ http://devforfun.net/blog/programming-languages-performance-testing
 
 ## License
 
-DFPerformanceMeter/Examples/iOS Language Performance Example/ is released under the MIT license. See LICENSE for details.
+iOS Language Performance Example is released under the MIT license. See LICENSE for details.
