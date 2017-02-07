@@ -31,7 +31,6 @@ class OilPaintingSwift: NSObject {
         
         let INTENSITY_SIZE = 32
         let INTENSITY_SIZE_1 = (INTENSITY_SIZE - 1)
-        //let INTENSITY_SIZE_SHIFT = 5
         
         let nIntensityCount =  UnsafeMutablePointer<Int>.allocate(capacity: INTENSITY_SIZE)
         let nSumR =  UnsafeMutablePointer<Int>.allocate(capacity: INTENSITY_SIZE)
@@ -79,12 +78,9 @@ class OilPaintingSwift: NSObject {
                         let nG = Int(bytes[offset + 1]);
                         let nB = Int(bytes[offset + 2]);
                         
-                        //var nCurIntensity =  ((( nR + nG + nB ) / 3) * IntensityLevel) >> INTENSITY_SIZE_SHIFT//>> INTENSITY_SIZE_SHIFT
-                        //( ( Double( nR + nG + nB ) / 3.0 ) * Double(IntensityLevel) ) / 255.0;
                         let g = (Float(nR + nG + nB) / 3.0)
                         var nCurIntensity = Int((g * Float(IntensityLevel)) / 255.0);
                         if( nCurIntensity > INTENSITY_SIZE_1 ){
-                            //https://softwarebydefault.com/2013/06/29/oil-painting-cartoon-filter/
                             nCurIntensity = INTENSITY_SIZE_1
                         }
                         let i = Int(nCurIntensity);

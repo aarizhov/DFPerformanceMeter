@@ -43,3 +43,17 @@ func allFunctionsCompleted(performanceMeter : DFPerformanceMeter, sortedResultAr
 ## License
 
 DFPerformanceMeter is released under the MIT license. See LICENSE for details.
+
+
+# iOS Language Performance Example. Oil Painting Filter by different languages.
+Tool for test:
+
+- C Language
+- Swift
+- OpenGL C
+- OpenGL Swift
+- Core Image
+
+## License
+
+DFPerformanceMeter is released under the MIT license. See LICENSE for details.
