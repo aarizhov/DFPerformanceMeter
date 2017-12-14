@@ -1,5 +1,5 @@
 # DFPerformanceMeter
-Tool for measurement performance of code. Supported iOS from 10.0 and Swift from 3.0
+Tool for measurement performance of code. Supported iOS from 10.0 and Swift from 4.0
 
 ## Usage
 
