@@ -70,8 +70,9 @@ public class DFPerformanceMeter {
         syncQueue.async{
             let count = self.functionsArray.count
             for index in 0..<count {
-                self.functionsArray[index]?.elapsedTime = self._callFunction(selectorName: (self.functionsArray[index]?.selectorName)!,
-                                                                                target: (self.functionsArray[index]?.target)!)
+                let time = self._callFunction(selectorName: (self.functionsArray[index]?.selectorName)!,
+                                              target: (self.functionsArray[index]?.target)!)
+                self.functionsArray[index]?.elapsedTime = time
             }
             
             self.sortedResultArray = [:]
@@ -106,7 +107,7 @@ public class DFPerformanceMeter {
     }
     
     private func _callFunction(selectorName : String, target : NSObject) -> Double {
-        let selector = NSSelectorFromString(selectorName)
+        let selector = Selector(selectorName)
         if(!target.responds(to: selector)){
             return 0
         }

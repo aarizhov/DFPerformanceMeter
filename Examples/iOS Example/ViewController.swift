@@ -44,29 +44,29 @@ class ViewController: UIViewController, UITableViewDataSource, DFPerformanceMete
     
 // MARK:- Test performance functions
     
-    func performanceTestFunction1() {
+    @objc func performanceTestFunction1() {
         sleep(2)
     }
     
-    func performanceTestFunction2() {
+    @objc func performanceTestFunction2() {
         sleep(1)
     }
     
-    func performanceTestFunction3() {
+    @objc func performanceTestFunction3() {
         let nsArray = NSMutableArray()
         for _ in 0...100000 {
             nsArray.add("12345")
         }
     }
     
-    func performanceTestFunction4() {
+    @objc func performanceTestFunction4() {
         var swiftArray = [String]()
         for _ in 0...100000 {
             swiftArray.append("12345")
         }
     }
     
-    func performanceTestFunction5() {
+    @objc func performanceTestFunction5() {
         sleep(2)
     }
     
