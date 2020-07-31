@@ -5,6 +5,9 @@ Tool for measurement performance of code. Supported iOS from 10.0 and Swift from
 
 All functions will be run on the background thread in synchronized mode
 
+Example App: iOS Language Performance Example
+https://github.com/aarizhov/DFPerformanceMeter/tree/master/Examples/iOS%20Language%20Performance%20Example
+
 ### Example
 
 ```swift
